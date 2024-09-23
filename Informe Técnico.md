@@ -23,6 +23,18 @@ Toda la información de este segmento está sacada de estas páginas ([mytaskpan
 
 ## Compatibilidad en navegadores
 
+La compatibilidad en navegadores se define básicamente en la capacidad de una página web para poder cargar y mantener su diseño original sin importar el tipo de navegador que se esté utilizando para abrir la página web, hoy en dia ya no hay tantos problemas en cuanto a esto como solía haber anteriormente, ahora es mayormente en cuanto a la capacidad de una página web de abrir en un teléfono móvil por ejemplo, ya que tiene características muy distintas en comparación a un ordenador habitual. Sin embargo, la compatibilidad entre navegadores sigue siendo un factor muy importante a tener en cuenta para que todo tipo de gente puede acceder a la página, aunque estén utilizando dispositivos anticuados. Para evitar estos problemas es importante hacer muchos testeos con diferentes navegadores, utilizar herramientas que puedan ayudar en el testeo y mantener en cuenta un análisis constante de los resultados.
+
+Hay problemas particulares de compatibilidad que suelen ser muy comunes, estos son algunos ejemplos:
+
+- **Validación de HTML y CSS:** La mayoria de las veces, el problema surge porque un navegador lee el código de la página de una manera distinta a otro, causando que esta no pueda cargarse o se vea de manera distinta, la mejor manera de lidiar con ellos es a través de herramientas de validación de código (Jigsaw CSS Validator, W3C HTML Validator, etc.)
+- **Falta de Resets CSS:** Para que una página web utilice su propio diseño es necesario sobreescribir el predeterminado, lo cual causa que la página web se vea de manera distinta entre navegadores, lo mejor para evitar esto es añadiendo hojas de estilo de reset CSS (Normalize.css, HTML5Reset, etc.), las cuales se encargan de resetear la página web a su estado por defecto.
+- **Error de DOCTYPE:** Prescindir del DOCTYPE suele causar errores de representación con facilidad, especialmente en navegadores más antiguos; siempre hay que mantener el código Doctype en la parte superior del código.
+
+Otros problemas pueden ser causados por ciertos lenguajes de programación como JavaScript, que puede conllevar problemas si se usan funciones de versiones más modernas en navegadores antiguos, por ello es importante adaptar estas funciones dependiendo de los navegadores; por suerte esto mayormente ocurre en la programación front-end, lenguajes deprogramación back-end como Java se adaptan de mejor manera entre los diversos navegadores y puede ser entendido por casi todos los navegadores existentes, incluyendo versiones antiguas.
+
+Toda la información de este segmento está sacada de estas páginas ([pedalo](https://www.pedalo.co.uk/browser-compatibility/), [comparium](https://comparium.app/es/blog/cross-browser-compatibility-issues/))
+
 ## Mecanismos de integración
 
 ## Herramientas de programación
