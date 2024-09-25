@@ -17,6 +17,7 @@ Hay algunos tipos especificos de estos modelos, los cuales son los siguientes:
 
 En este caso voy a optar por una arquitectura de dos niveles, ya que para la web que planeo hacer no hará falta la intervención de otro intermediario durante la conexión entre el cliente y servidor.
 
+### REFERENCIAS
 Toda la información de este segmento está sacada de esta [página](https://www.arsys.es/blog/todo-sobre-la-arquitectura-cliente-servidor).
 
 ## Lenguajes de programación
@@ -33,6 +34,7 @@ Un lenguaje de script es un tipo de lenguaje de programación cuyo código se in
 
 Aunque tengan un nombre casi igual, **Java y JavaScript no son lo mismo**, ya que Java es un lenguaje de programación encargado del back-end, mientras que JavaScript es un lenguaje de scripting diseñado para el front-end, cuesta asimilarlo al principio pero al utilizarlos se ve claramente que no son lo mismo, lo único que tienen de parecido es el nombre.
 
+### REFERENCIAS
 Toda la información de este segmento está sacada de estas páginas ([mytaskpanel](https://www.mytaskpanel.com/java-soluciones-enterprise/#:~:text=Java%20es%20uno%20de%20los,la%20portabilidad%20y%20la%20escalabilidad.), [hubspot](https://blog.hubspot.es/website/ventajas-desventajas-java), [profile](https://profile.es/blog/lenguajes-de-scripting/), [stride](https://stride.com.co/blog/javascript-que-es-para-que-sirve/), [mytaskpanel](https://www.mytaskpanel.com/javascript-caracteristicas-beneficios-casos/)).
 
 ## Compatibilidad en navegadores
@@ -47,6 +49,7 @@ Hay problemas particulares de compatibilidad que suelen ser muy comunes, estos s
 
 Otros problemas pueden ser causados por ciertos lenguajes de programación como JavaScript, que puede conllevar problemas si se usan funciones de versiones más modernas en navegadores antiguos, por ello es importante adaptar estas funciones dependiendo de los navegadores, evitando utilizar ciertos métodos y funciones que sean incompatibles en navegadores más antiguos, usando tablas de compatibilidad como [esta](https://developer.mozilla.org/es/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs).
 
+### REFERENCIAS
 Toda la información de este segmento está sacada de estas páginas ([pedalo](https://www.pedalo.co.uk/browser-compatibility/), [comparium](https://comparium.app/es/blog/cross-browser-compatibility-issues/))
 
 ## Mecanismos de integración
@@ -57,6 +60,7 @@ El lenguaje de marcas pensado para este proyecto es HTML, comunmente utilizado p
 - **Frameworks y librerias:** Hay diversas librerias y frameworks que ayudan a integrar, como es el caso de Spring Boot que ayuda a desplegar webs Java y admite varias plantillas.
 - **Componentes web y JavaScript:** Otra opción sería el uso de componentes web los cuales son reutilizables y personalizables, pudiendo encapsular el comportamiento y funcionalidad de Java, haciendo uso de JavaScript.
 
+### REFERENCIAS
 Toda la información de este segmento está sacada de estas páginas ([wikipedia](https://es.wikipedia.org/wiki/Lenguaje_de_marcado), [linkedin](https://es.linkedin.com/advice/1/how-can-you-integrate-java-html-css-skills-web-development-2ftle?lang=es))
 
 ## Herramientas de programación
@@ -75,6 +79,7 @@ Otras herramientas de programación planteadas son **Spring** y **Hibernate**, l
 
 Como última adición está **Bootstrap**, un framework para trabajar en front-end desarrollado por Twitter en 2010, el cual combina CSS y JavaScript que ayudan ampliamente a estilizar una página web, proporcionando así mayor interactividad por parte del usuario con elementos como menús de navegación, controles de página y barras de progreso.
 
+### REFERENCIAS
 Toda la información de este segmento está sacada de estas páginas ([capterra](https://www.capterra.es/software/136010/intellij-idea), [arsys](https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas), [openwebinars](https://openwebinars.net/blog/conoce-que-es-spring-framework-y-por-que-usarlo/), [wikipedia](https://es.wikipedia.org/wiki/Hibernate), [rockcontent](https://rockcontent.com/es/blog/bootstrap/))
 
 ## Análisis de mercado
