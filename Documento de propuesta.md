@@ -23,7 +23,7 @@ La mayoría de guías de compleción vienen de manera escrita, explicando el pro
 
 ## Tecnologias a utilizar
  
-Como lenguaje de programación considero que utilizar Java pueda ser la mejor opción ya que es utilizado ampliamente, además de ser parecido a lenguajes que he aprendido anteriormente, por lo que no se me haría tan excesivamente complicado de utilizar e implementar.
+Como lenguaje de programación considero que utilizar Java pueda ser la mejor opción ya que es utilizado ampliamente, además de ser parecido a lenguajes que he aprendido anteriormente, por lo que no se me haría tan excesivamente complicado de utilizar e implementar; etste sería principalmente utilizado para crear la aplicación para la página web, la cuál será la responsable de generar las plantillas de listas que creen los usuarios. Adicionalmente, para la creación de la página web en sí, utilizaré JavaScript, ya que es uno de los lenguajes más populares a la hora de crear páginas web, debido a su sencillez y facilidad de aprendizaje, además de las diferentes bibliotecas que se le pueden asignar, pudiendo así conectar la página web con la aplicación.
 
 Como framework en principio pienso enforcarme en Spring ya que es una de las más recomendadas y equilibrada para muchos diferentes usos, por lo que será muy efectiva para crear páginas web; como adición habia pensado en utilizar Hibernate por su habilidad de hacer transacciones con la base de datos mucho más simple, lo cuál podrá ayudar a la hora de manejar los parámetros de cada usuario sin tener que complicarme a la hora de manejar la base de datos.
 
