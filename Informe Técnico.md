@@ -17,11 +17,19 @@ Toda la información de este segmento está sacada de esta [página](https://www
 
 ## Lenguajes de programación
 
-Como mencioné anteriormente, el lenguaje de programación principal que voy a utilizar será **Java**.
+Como mencioné anteriormente, el lenguaje de programación principal que voy a utilizar será **Java** para el back-end.
 
-Java es uno de los lenguajes de programación a la hora de desarrollar aplicaciones web a fondo, siendo conocido por su robustez y su amplia comunidad, por lo que posee mucha documentación a cerca de su uso; es estable y con mucha escalabilidad, además de poseer una gran seguridad para sus datos (autenticación avanzada, control de acceso, encriptación, etc.). Al ser tan conocido y utilizado, Java también es compatible con un sinfin de bibliotecas, APIs y herramientas de desarrollo para todo tipo de proyectos. Aunque como todo, Java también tiene algunas desventajas a considerar, entre ellas su rendimiento más lento en comparación a otros lenguajes de programación, puede requerir más memoria que otros lenguajes de programación y también puede sobrecargar código en ciertos casos, por lo que hay que estar muy pendiente a ello para que no ocurra. 
+**Java** es uno de los lenguajes de programación a la hora de desarrollar aplicaciones web a fondo, siendo conocido por su robustez y su amplia comunidad, por lo que posee mucha documentación a cerca de su uso; es estable y con mucha escalabilidad, además de poseer una gran seguridad para sus datos (autenticación avanzada, control de acceso, encriptación, etc.). Al ser tan conocido y utilizado, Java también es compatible con un sinfin de bibliotecas, APIs y herramientas de desarrollo para todo tipo de proyectos. Aunque como todo, Java también tiene algunas desventajas a considerar, entre ellas su rendimiento más lento en comparación a otros lenguajes de programación, puede requerir más memoria que otros lenguajes de programación y también puede sobrecargar código en ciertos casos, por lo que hay que estar muy pendiente a ello para que no ocurra. 
 
-Toda la información de este segmento está sacada de estas páginas ([mytaskpanel](https://www.mytaskpanel.com/java-soluciones-enterprise/#:~:text=Java%20es%20uno%20de%20los,la%20portabilidad%20y%20la%20escalabilidad.), [hubspot](https://blog.hubspot.es/website/ventajas-desventajas-java)).
+En cuanto a programación en front-end, utilizaré **Java-script**, el cuál es un lenguaje de scripting.
+
+Un lenguaje de script es un tipo de lenguaje de programación cuyo código se inserta dentro de páginas HTML, siendo ejecutado al cargar la página o al interactuar con un elemento de la página en un navegador. Estos scripts se utilizan para crear prototipos de programas, automatizar tareas repetitivas e interactuar con el sistema operativo y el usuario, sin embargo también tienen sus inconvenientes al ser necesario instalar un programa intérprete y tener menor velocidad que otros lenguajes de programación en ciertos casos.
+
+**JavaScript** es un lenguaje de scripting interpretado orientado a objeto diseñado para el front-end, es capaz de ejecutarse asíncronamente, posee una estructura simple, puede conectarse a bases de datos y usar diferentes tipo de APIs; su uso es muy común hoy en día por lo que posee mucha documentación al respecto también; aunque también su depuración puede resultar considerablemente difícil, además de que habrá que tener en cuenta las diferentes maneras que los distintos navegadores pueden interpretar JavaScript.
+
+Aunque tengan un nombre casi igual, **Java y JavaScript no son lo mismo**, ya que Java es un lenguaje de programación encargado del back-end, mientras que JavaScript es un lenguaje de scripting diseñado para el front-end, cuesta asimilarlo al principio pero al utilizarlos se ve claramente que no son lo mismo, lo único que tienen de parecido es el nombre.
+
+Toda la información de este segmento está sacada de estas páginas ([mytaskpanel](https://www.mytaskpanel.com/java-soluciones-enterprise/#:~:text=Java%20es%20uno%20de%20los,la%20portabilidad%20y%20la%20escalabilidad.), [hubspot](https://blog.hubspot.es/website/ventajas-desventajas-java), [profile](https://profile.es/blog/lenguajes-de-scripting/), [stride](https://stride.com.co/blog/javascript-que-es-para-que-sirve/), [mytaskpanel](https://www.mytaskpanel.com/javascript-caracteristicas-beneficios-casos/)).
 
 ## Compatibilidad en navegadores
 
@@ -39,7 +47,7 @@ Toda la información de este segmento está sacada de estas páginas ([pedalo](h
 
 ## Mecanismos de integración
 
-El lenguaje de marcas pensado para este proyecto es HTML, comunmente utilizado por la gran mayoria de otras páginas web, este lenguaje es de marcado descriptivo, o sea, utiliza etiquetas para para describir los fragmentos de texto sin especificar su orden o como deben ser representados. HTML no tiene ningún problema a la hora de funcionar en los diferentes navegadores disponibles actualmente, incluso si llegan a ser antiguos. Para integrar apropiadamente Java en HTML hay diversas opciones:
+El lenguaje de marcas pensado para este proyecto es HTML, comunmente utilizado por la gran mayoria de otras páginas web, este lenguaje es de marcado descriptivo, o sea, utiliza etiquetas para para describir los fragmentos de texto sin especificar su orden o como deben ser representados. HTML no tiene ningún problema a la hora de funcionar en los diferentes navegadores disponibles actualmente, incluso si llegan a ser antiguos, pero su integración con el lenguaje de programación Java sigue siendo necesaria, por lo que para ello se puede hacer uso de distintos métodos. Para integrar apropiadamente Java en HTML hay diversas opciones:
 
 - **Servlets y JSP:** Usando servlets (clases de Java que se ejecutan en un servidor web) y JavaServer Pages, los cuales son archivos HTML que pueden contener código Java sin problemas, permiten el uso de Java con HTML siempre que se usen conjuntamente, dejando que los JSP sean procesados por el servlet antes de ser enviados al navegador.
 - **Frameworks y librerias:** Hay diversas librerias y frameworks que ayudan a integrar, como es el caso de Spring Boot que ayuda a desplegar webs Java y admite varias plantillas.
@@ -49,13 +57,21 @@ Toda la información de este segmento está sacada de estas páginas ([wikipedia
 
 ## Herramientas de programación
 
-Como herramientas de programación, estaré utilizando tanto **intelliJ** y **Visual Studio Code** para ayudarme a la hora de programar.
+Como herramientas de programación, estaré utilizando tanto **IntelliJ** y **Visual Studio Code** para ayudarme a la hora de programar.
 
-IntelliJ IDEA es un entorno de programación que es muy util a la hora de crear programas en lenguajes como Java o Kotlin. Es capaz de proveer plantillas prediseñadas, hacer tests de compatibilidad y depurar, su interfaz gráfica es simple y efectiva, ademas de que ayuda a la hora de corregir errores y permite instalar diferentes plugins que hará la experiencia aún más favorable.
+**IntelliJ IDEA** es un entorno de programación que es muy util a la hora de crear programas en lenguajes como Java o Kotlin. Es capaz de proveer plantillas prediseñadas, hacer tests de compatibilidad y depurar, su interfaz gráfica es simple y efectiva, ademas de que ayuda a la hora de corregir errores y permite instalar diferentes plugins que hará la experiencia aún más favorable.
 
-Visual Studio Code es un editor de código que permite editar y crear cualquier tipo de código, es especialmente útil en programación front-end y lenguajes de marcado como HTML y CSS, también permite la depuración del código, gestionar diversos proyectos, integrar control de versiones a través de Git, permite extensiones y plugins, es eficiente, ágil y permite diversos frameworks con los que trabajar.
+**Visual Studio Code** es un editor de código que permite editar y crear cualquier tipo de código, es especialmente útil en programación front-end y lenguajes de marcado como HTML y CSS, también permite la depuración del código, gestionar diversos proyectos, integrar control de versiones a través de Git, permite extensiones y plugins, es eficiente, ágil y permite diversos frameworks con los que trabajar.
 
-Toda la información de este segmento está sacada de estas páginas ([capterra](https://www.capterra.es/software/136010/intellij-idea), [arsys](https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas))
+Otras herramientas de programación planteadas son Spring y Hibernate, las cuales van ligadas:
+
+**Spring** es un framework de desarrollo de aplicaciones web de código abierto bajo la licencia de Apache 2.0 (creado por Rod Johnson lanzado en Junio de 2003), la cual proporciona ventajas como inyección de dependencia, eventos, recursos, validación, además de estar ordenado de form modular y contar con diversas plantillas para otraas tecnologías, entre ellas Hibernate.
+
+**Hibernate** es una herramienta de mapeo objeto-relacional desarrollada por Red Hat y lanzada en el 2001, la cuál facilita el acceso entre el programa y la base de datos, omitiendo en su mayoría el proceso de tener que preparar sentencias para poder acceder a la base de datos.
+
+Como última adición está **Bootstrap**, un framework para trabajar en front-end desarrollado por Twitter en 2010, el cual combina CSS y JavaScript que ayudan ampliamente a estilizar una página web, proporcionando así mayor interactividad por parte del usuario con elementos como menús de navegación, controles de página y barras de progreso.
+
+Toda la información de este segmento está sacada de estas páginas ([capterra](https://www.capterra.es/software/136010/intellij-idea), [arsys](https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas), [openwebinars](https://openwebinars.net/blog/conoce-que-es-spring-framework-y-por-que-usarlo/), [wikipedia](https://es.wikipedia.org/wiki/Hibernate), [rockcontent](https://rockcontent.com/es/blog/bootstrap/))
 
 ## Análisis de mercado
 
