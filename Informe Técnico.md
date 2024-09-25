@@ -1,3 +1,5 @@
+# Informe Técnico
+
 ## Modelos cliente/servidor
 
 La arquitectura cliente-servidor consiste en la conexión de uno o varios clientes a un servidor especifico, que se encarga de proveer a los clientes con los servicios que estos soliciten.
