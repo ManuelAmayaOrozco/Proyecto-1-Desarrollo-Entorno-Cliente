@@ -17,7 +17,7 @@ La mayoría de guías de compleción vienen de manera escrita, explicando el pro
 ## Funcionalidades clave
 
 - Gestión de usuarios básica (poder crear, modificar y eliminar tu usuario libremente).
-- Creación de plantillas de lista de compleción (permitir al usuario añadir apartados, notas, casillas, contadores, etc. que hagan falta para poder hacer el seguimiento de la compleción de su juego).
+- Creación de plantillas de lista de compleción (permitir al usuario añadir apartados, notas, casillas, contadores, etc. que hagan falta para poder hacer el seguimiento de la compleción de su juego) a través de una aplicación.
 - Publicación de plantillas de lista de compleción y capacidad de ser usadas por otros usuarios de manera libre.
 - Poder mostrar las listas de compleción de un usuario en su perfil de manera pública.
 
