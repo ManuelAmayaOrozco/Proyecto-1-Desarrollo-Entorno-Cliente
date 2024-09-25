@@ -37,6 +37,24 @@ Toda la información de este segmento está sacada de estas páginas ([pedalo](h
 
 ## Mecanismos de integración
 
+El lenguaje de marcas pensado para este proyecto es HTML, comunmente utilizado por la gran mayoria de otras páginas web, este lenguaje es de marcado descriptivo, o sea, utiliza etiquetas para para describir los fragmentos de texto sin especificar su orden o como deben ser representados. HTML no tiene ningún problema a la hora de funcionar en los diferentes navegadores disponibles actualmente, incluso si llegan a ser antiguos. Para integrar apropiadamente Java en HTML hay diversas opciones:
+
+- **Servlets y JSP:** Usando servlets (clases de Java que se ejecutan en un servidor web) y JavaServer Pages, los cuales son archivos HTML que pueden contener código Java sin problemas, permiten el uso de Java con HTML siempre que se usen conjuntamente, dejando que los JSP sean procesados por el servlet antes de ser enviados al navegador.
+- **Frameworks y librerias:** Hay diversas librerias y frameworks que ayudan a integrar, como es el caso de Spring Boot que ayuda a desplegar webs Java y admite varias plantillas.
+- **Componentes web y JavaScript:** Otra opción sería el uso de componentes web los cuales son reutilizables y personalizables, pudiendo encapsular el comportamiento y funcionalidad de Java, haciendo uso de JavaScript.
+
+Toda la información de este segmento está sacada de estas páginas ([wikipedia](https://es.wikipedia.org/wiki/Lenguaje_de_marcado), [linkedin](https://es.linkedin.com/advice/1/how-can-you-integrate-java-html-css-skills-web-development-2ftle?lang=es))
+
 ## Herramientas de programación
 
+Como herramientas de programación, estaré utilizando tanto **intelliJ** y **Visual Studio Code** para ayudarme a la hora de programar.
+
+IntelliJ IDEA es un entorno de programación que es muy util a la hora de crear programas en lenguajes como Java o Kotlin. Es capaz de proveer plantillas prediseñadas, hacer tests de compatibilidad y depurar, su interfaz gráfica es simple y efectiva, ademas de que ayuda a la hora de corregir errores y permite instalar diferentes plugins que hará la experiencia aún más favorable.
+
+Visual Studio Code es un editor de código que permite editar y crear cualquier tipo de código, es especialmente útil en programación front-end y lenguajes de marcado como HTML y CSS, también permite la depuración del código, gestionar diversos proyectos, integrar control de versiones a través de Git, permite extensiones y plugins, es eficiente, ágil y permite diversos frameworks con los que trabajar.
+
+Toda la información de este segmento está sacada de estas páginas ([capterra](https://www.capterra.es/software/136010/intellij-idea), [arsys](https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas))
+
 ## Análisis de mercado
+
+No existen muchas otras páginas que se dediquen a proporcionar guias de videojuegos de manera eficiente, la mayoría se tratan de foros en los que la gente sube sus propias guias a base de texto, como por ejemplo [GameFAQs](https://gamefaqs.gamespot.com/) o [Game8](https://game8.co/); sin embargo, mi vision es para una guía más visual, con menos texto y que sea más parecido a poder crear tu propia lista de tareas para poder seguir tu propio progreso mientras juegas, además de poder compartirlo entre otros usuarios de la página para que ellos puedan también generar su propia versión de la plantilla, o simplemente mostrar su compleción del juego a todos los demás. Mi objetivo es crear algo nunca visto, y considero que al no existir ninguna página web parecida, tendria la ventaja de ser novedosa a pesar de tener competencia al ya existir otras páginas de guias.
