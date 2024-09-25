@@ -67,7 +67,7 @@ Como herramientas de programación, estaré utilizando tanto **IntelliJ** y **Vi
 
 **Visual Studio Code** es un editor de código que permite editar y crear cualquier tipo de código, es especialmente útil en programación front-end y lenguajes de marcado como HTML y CSS, también permite la depuración del código, gestionar diversos proyectos, integrar control de versiones a través de Git, permite extensiones y plugins, es eficiente, ágil y permite diversos frameworks con los que trabajar.
 
-Otras herramientas de programación planteadas son Spring y Hibernate, las cuales van ligadas:
+Otras herramientas de programación planteadas son **Spring** y **Hibernate**, las cuales van ligadas:
 
 **Spring** es un framework de desarrollo de aplicaciones web de código abierto bajo la licencia de Apache 2.0 (creado por Rod Johnson lanzado en Junio de 2003), la cual proporciona ventajas como inyección de dependencia, eventos, recursos, validación, además de estar ordenado de form modular y contar con diversas plantillas para otraas tecnologías, entre ellas Hibernate.
 
