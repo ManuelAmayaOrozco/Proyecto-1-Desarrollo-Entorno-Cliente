@@ -16,10 +16,10 @@ La mayoría de guías de compleción vienen de manera escrita, explicando el pro
 
 ## Funcionalidades clave
 
-- Gestión de usuarios básica (poder crear, modificar y eliminar tu usuario libremente).
-- Creación de plantillas de lista de compleción (permitir al usuario añadir apartados, notas, casillas, contadores, etc. que hagan falta para poder hacer el seguimiento de la compleción de su juego) a través de una aplicación.
-- Publicación de plantillas de lista de compleción y capacidad de ser usadas por otros usuarios de manera libre.
-- Poder mostrar las listas de compleción de un usuario en su perfil de manera pública.
+- Gestión de usuarios básica (poder crear, modificar y eliminar tu usuario libremente). El usuario podrá rellenar un informe con toda la infromación necesaria tanto para crear y acceder a su usuario. Dentro de la página de gestión de usuario, el cliente tendrá permitido eliminar su propio usuario si así lo desea pulsando un botón.
+- Creación de plantillas de lista de compleción (permitir al usuario añadir apartados, notas, casillas, contadores, etc. que hagan falta para poder hacer el seguimiento de la compleción de su juego) a través de una aplicación. Esta aplicación se puede acceder desde la página principal de la web una vez el cliente haya asignado su usuario, en la aplicación tendrá la opción de añadir tareas, añadir notas o imágenes a dichas tareas, añadir contadores y añadir notas e imágenes a dichos contadores. Una vez creada la plantilla, el usuario podrá crear una instancia de dicha plantilla, con la cuál puede marcar tareas como completadas o no, además de subir o bajar los contadores.
+- Publicación de plantillas de lista de compleción y capacidad de ser usadas por otros usuarios de manera libre. El usuario tiene la opción de publicar una plantilla a la web para que pueda ser usada libremente por otros usuarios, y también puede publicar listas que el usuario haya utilizado para mostrar su progreso en el juego a otras personas, todo a través de la aplicación.
+- Poder mostrar las listas de compleción de un usuario en su perfil de manera pública. Se puede acceder al perfil de otros usuarios para visualizar ciertos datos y todas sus listas y plantillas que tenga publicadas.
 
 ## Tecnologias a utilizar
  
